@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomad</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;600&family=Red+Hat+Display:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap');
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>No<span>mad</span></h1>
+        </div>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <label class="hamburger">
+            <svg viewBox="0 0 32 32">
+              <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+              <path class="line" d="M7 16 27 16"></path>
+            </svg>
+
+        </label>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="slider-container">
+                <div class="text">
+                    <h1>Work from anywhere</h1>
+                    <p>Work remotely, explore various destinations, 
+                        <br> and make lasting memories with a community of digital nomads.</p>
+                </div>
+                <div class="slider">
+
+                    <div class="slide" style="--bg: url(/images/japan.jpg);">
+                        
+                    </div>
+                    <div class="slide" style="--bg: url(/images/pexels-tranmautritam-380707.jpg);">
+                       
+                    </div>
+                    <div class="slide" style="--bg: url(/images/beach.jpg);">
+                       
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="arrow-container">
+                   
+                <i class="arrow fa-solid fa-arrow-left" onclick="prevSlide()"></i>
+                <i class="arrow fa-solid fa-arrow-right " onclick="nextSlide()"></i>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="inclusion">
+            <div class="header">
+                <h6>What's included?</h6>
+                <h3>Work remotely. Travel the world.</h3>
+                <div class="buttons">
+                    <i class="arrow-btn fa-solid fa-arrow-right"></i> 
+                    <h2>Learn how it works</h2>
+                </div>
+            </div>
+            <div class="body"> 
+                <div class="container">
+                    <div class="card">
+                        <i class="fa-solid fa-house"></i>
+
+                        <div class="details">
+                            <h2>Accomodatations</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-computer"></i>
+
+                        <div class="details">
+                            <h2>Co-working spaces</h2>
+                            <p>24/7 access to co-working space with strong WiFi.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-people-group"></i>
+
+                        <div class="details">
+                            <h2>Community</h2>
+                            <p>Like-minded nomads working and traveling the world.</p>
+                        </div>
+                    </div>                    
+                    <div class="card">
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div class="details">
+                            <h2>Local Experiences</h2>
+                            <p>Make memories with inclusive local experiences.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="destinations">
+            <div class="header">
+                <h6>Destinations</h6>
+                <h3>Our most popular destinations</h3>
+                <div class="buttons">
+                    <i class="arrow-btn fa-solid fa-arrow-right"></i> 
+                    <h2>View all destinations</h2>
+                </div>
+            </div>
+            <div class="body"> 
+                <div class="container">
+                    <div class="card">
+                        <span>01</span>
+
+                       
+                            <h2>Seoul, S. Korea</h2>
+                            
+                            <img src="/images/korea.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <span>02</span>
+
+                       
+                            <h2>Tokyo, Japan</h2>
+
+                        <img src="/images/japan2.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <span>03</span>
+
+                       
+                            <h2>Santorini, Greece</h2>
+                            
+                            <img src="/images/greece2.jpg" alt="">
+                    </div>                    
+                    <div class="card">
+                        <span>04</span>
+
+                       
+                            <h2>Bali, Indonesia</h2>
+                            
+                            <img src="/images/indo.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <section class="testimonials">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>"My productivity has soared and I've made invaluable, lifelong friends through Nomad.”</h2>
+                        <div class="profile">
+                            <img src="/images/migueldevnewlogo.jpg" alt="" class="picture">
+                            <div>
+                               <h1  class="name">Joshua Miguel Toribio</h1>
+                                <span class="title">Software Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>"My productivity has soared and I've made invaluable, lifelong friends through Nomad.”</h2>
+                        <div class="profile">
+                            <img src="/images/migueldevnewlogo.jpg" alt="" class="picture">
+                            <div>
+                               <h1  class="name">Joshua Miguel Toribio</h1>
+                                <span class="title">Software Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>"My productivity has soared and I've made invaluable, lifelong friends through Nomad.”</h2>
+                        <div class="profile">
+                            <img src="/images/migueldevnewlogo.jpg" alt="" class="picture">
+                            <div>
+                               <h1  class="name">Joshua Miguel Toribio</h1>
+                                <span class="title">Software Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide3(0)"></span>
+                    <span class="dot" onclick="currentSlide3(1)"></span>
+                    <span class="dot" onclick="currentSlide3(2)"></span>
+                    <!-- Add more dots as needed -->
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="newsletter">
+            <div class="container">
+
+                
+                <div class="newsletter-text">
+                    <h6>Community</h6>
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Join a group of like-minded digital nomads working and traveling the world together. Get updates on new deals and discounts for every destination.</p>
+                </div>
+        
+            
+                <form class="subscribe-form">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+                </form>
+                </section>
+            </div>
+    </main>
+    
+    <footer>
+        <div class="top">
+            <div class="header">
+                <div class="logo">
+                    <h1>nomad.</h1>
+                </div>
+                <p>Launch your personalized marketplace 
+                    effortlessly with ByteBlitz's Template</p>
+            </div>
+            <div class="footer-links">
+                
+                <div class="footer-column">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div> 
+                <div class="footer-column">
+                    <h2>Destinations</h2>
+                    <ul>
+                        <li><a href="#">Seoul, Korea</a></li>
+                        <li><a href="#">Tokyo, Japan</a></li>
+                        <li><a href="#">Santorini, Greece</a></li>
+                        <li><a href="#">Positano, Italy</a></li>
+                        <li><a href="#">Bali, Indonesia</a></li>
+
+                    </ul>
+                </div>          
+                <div class="footer-column social-icons">
+                    <h2>Social Media</h2>
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i> Twiter</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                        <li><a href="https://www.tiktok.com/@_migueldev" target="_blank"><i class="fa-brands fa-tiktok"></i> Tiktok</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <h5>© Copyright 2023 | Made by <a href="https://migueldev.vercel.app/" target="_blank">Migueldev</a></h5>
+            <h5><a href="">Terms & Conditions</a> /<a href=""> Privacy Policy</a> </h5>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
