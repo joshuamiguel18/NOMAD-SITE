@@ -338,6 +338,11 @@ nav ul li a::before {
     }
     .inclusion .details h2{
         margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+    .inclusion .details p{
+
+        font-size: .8rem;
     }
     .inclusion .container {
         width: 100%;
@@ -361,6 +366,7 @@ nav ul li a::before {
         align-items: flex-start;
         justify-content: space-between;
         gap: 3em;
+
 
     }
     .inclusion .card i{
