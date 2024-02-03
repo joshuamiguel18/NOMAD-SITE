@@ -194,7 +194,7 @@ nav ul li a::before {
         aspect-ratio: 16/9;
         background-position: center;
         background-size: cover;
-        height:550px;
+        height:800px;
         min-width: 100%;
         transition: transform 1s ease-in-out, width 1s ease-in-out;
         display: flex;
@@ -202,8 +202,8 @@ nav ul li a::before {
         filter: brightness(70%);
         padding: 5em 4em;
         border-radius: 20px;
-    
-    }
+
+}
 
     .hero .text {
         position: absolute;
@@ -444,6 +444,10 @@ nav ul li a::before {
     
 @media only screen and (min-width: 1050px) {
     .destinations .card h2:hover + img {
+        opacity: 1;
+        transform: rotate(0deg) translateY(-50%);
+    }
+    .destinations .card img:hover {
         opacity: 1;
         transform: rotate(0deg) translateY(-50%);
     }
@@ -751,6 +755,7 @@ footer li {
 
 
 @media only screen and (max-width: 850px) {
+
     nav {
 
         padding:10px 2rem;
@@ -766,9 +771,10 @@ footer li {
     .hero .slide {
 
         padding: 5em 1em;
-
+        height:550px;
     
     }
+
     .text {
 
         bottom: 0em;
